@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
 
+    public Animator animator;
     public float speed = 10;
     public float jumpForce = 5f;
     public Rigidbody2D rb;
@@ -23,15 +24,25 @@ public class PlayerMovement : MonoBehaviour
             Vector2 jumpVector = new Vector2(rb.velocity.x, jumpForce);
             rb.velocity = jumpVector;
         }
-        mx = Input.GetAxisRaw("Horizontal");
-        if (mx < 0){
-            spriteRenderer.flipX = true;
-        }
-        else if (mx > 0){
-            spriteRenderer.flipX = false;
+
+        Vector3 movement = new Vector3(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+
+        if(movement != Vector3.zero){
+            MoveCharacter(movement);
+        } else {
+            animator.SetFloat("Horizontal", 0);
+            animator.SetFloat("Vertical", 0);
         }
         
-        Vector2 horizontalMovementVector = new Vector2(mx * speed, rb.velocity.y);
+        // animator.SetFloat("Magnitude", movement.magnitude);
+        // if (mx < 0){
+        //     spriteRenderer.flipX = true;
+        // }
+        // else if (mx > 0){
+        //     spriteRenderer.flipX = false;
+        // }
+        
+        Vector3 horizontalMovementVector = new Vector2(movement.x * speed, rb.velocity.y);
         rb.velocity = horizontalMovementVector;
     }
     private void Start() {
@@ -44,5 +55,19 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.tag == "Ground") {
             canJump = true;
         }
+    }
+
+    private void MoveCharacter(Vector3 movement) {
+        animator.SetFloat("Horizontal", movement.x);
+        animator.SetFloat("Vertical", movement.y);
+        // animator.SetFloat("speed", Mathf.Abs(direction.x) + Mathf.Abs(direction.y));
+
+        // flips sprite depending on which way the player is heading
+        if(movement.x < 0)
+            transform.localRotation = Quaternion.Euler(0, 180, 0);
+        else if(movement.x > 0)
+            transform.localRotation = Quaternion.Euler(0, 0, 0);
+
+        transform.position = transform.position + movement.normalized * speed * Time.deltaTime;
     }
 }
