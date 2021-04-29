@@ -3,20 +3,20 @@ guid: b9a7c23c4b1de2648bf8481eb5ed9579
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2848249089405953232
-    second: slime_die 1_0
+      213: -2516762362254202662
+    second: slime_die_0
   - first:
-      213: 457233210002213813
-    second: slime_die 1_1
+      213: 4028818169658037017
+    second: slime_die_1
   - first:
-      213: -6919524588856312403
-    second: slime_die 1_2
+      213: 3971175892937728304
+    second: slime_die_2
   - first:
-      213: -1311776534049674265
-    second: slime_die 1_3
+      213: -8716027287780251354
+    second: slime_die_3
   - first:
-      213: -7655822401412362650
-    second: slime_die 1_4
+      213: 233026510659435081
+    second: slime_die_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: slime_die 1_0
+      name: slime_die_0
       rect:
         serializedVersion: 2
         x: 0
@@ -118,14 +118,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d42fd5c473078720800000000000000
-      internalID: 2848249089405953232
+      spriteID: ad8e3c547f9a21dd0800000000000000
+      internalID: -2516762362254202662
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_die 1_1
+      name: slime_die_1
       rect:
         serializedVersion: 2
         x: 32
@@ -139,14 +139,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5bb81b59e2b685600800000000000000
-      internalID: 457233210002213813
+      spriteID: 9135b1b97cc39e730800000000000000
+      internalID: 4028818169658037017
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_die 1_2
+      name: slime_die_2
       rect:
         serializedVersion: 2
         x: 64
@@ -160,14 +160,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dad73a23c09e8ff90800000000000000
-      internalID: -6919524588856312403
+      spriteID: 031e5273f637c1730800000000000000
+      internalID: 3971175892937728304
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_die 1_3
+      name: slime_die_3
       rect:
         serializedVersion: 2
         x: 96
@@ -181,14 +181,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7eba64f3132abcde0800000000000000
-      internalID: -1311776534049674265
+      spriteID: 6292f3b7c537a0780800000000000000
+      internalID: -8716027287780251354
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_die 1_4
+      name: slime_die_4
       rect:
         serializedVersion: 2
         x: 128
@@ -202,8 +202,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66e8654961e01c590800000000000000
-      internalID: -7655822401412362650
+      spriteID: 94aba177060eb3300800000000000000
+      internalID: 233026510659435081
       vertices: []
       indices: 
       edges: []
