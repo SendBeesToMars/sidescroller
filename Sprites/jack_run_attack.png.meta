@@ -1,22 +1,16 @@
 fileFormatVersion: 2
-guid: b9a7c23c4b1de2648bf8481eb5ed9579
+guid: 02fb06422e62b78429fb06fab2895d20
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2848249089405953232
-    second: slime_die 1_0
+      213: -2935533251258514155
+    second: jack_run_attack_0
   - first:
-      213: 457233210002213813
-    second: slime_die 1_1
+      213: 2015347418157288905
+    second: jack_run_attack_1
   - first:
-      213: -6919524588856312403
-    second: slime_die 1_2
-  - first:
-      213: -1311776534049674265
-    second: slime_die 1_3
-  - first:
-      213: -7655822401412362650
-    second: slime_die 1_4
+      213: -6887786894378311638
+    second: jack_run_attack_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -104,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: slime_die 1_0
+      name: jack_run_attack_0
       rect:
         serializedVersion: 2
         x: 0
@@ -118,14 +112,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d42fd5c473078720800000000000000
-      internalID: 2848249089405953232
+      spriteID: 5158364af04e247d0800000000000000
+      internalID: -2935533251258514155
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_die 1_1
+      name: jack_run_attack_1
       rect:
         serializedVersion: 2
         x: 32
@@ -139,14 +133,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5bb81b59e2b685600800000000000000
-      internalID: 457233210002213813
+      spriteID: 9cd044e8cc3f7fb10800000000000000
+      internalID: 2015347418157288905
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_die 1_2
+      name: jack_run_attack_2
       rect:
         serializedVersion: 2
         x: 64
@@ -160,50 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dad73a23c09e8ff90800000000000000
-      internalID: -6919524588856312403
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_die 1_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7eba64f3132abcde0800000000000000
-      internalID: -1311776534049674265
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_die 1_4
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 32
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 66e8654961e01c590800000000000000
-      internalID: -7655822401412362650
+      spriteID: a206df7005aa960a0800000000000000
+      internalID: -6887786894378311638
       vertices: []
       indices: 
       edges: []
