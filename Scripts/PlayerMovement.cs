@@ -34,14 +34,6 @@ public class PlayerMovement : MonoBehaviour
             animator.SetFloat("Vertical", 0);
         }
         
-        // animator.SetFloat("Magnitude", movement.magnitude);
-        // if (mx < 0){
-        //     spriteRenderer.flipX = true;
-        // }
-        // else if (mx > 0){
-        //     spriteRenderer.flipX = false;
-        // }
-        
         Vector3 horizontalMovementVector = new Vector2(movement.x * speed, rb.velocity.y);
         rb.velocity = horizontalMovementVector;
     }

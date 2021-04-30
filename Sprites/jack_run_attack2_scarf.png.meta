@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: 5df0c4434c4f85148b64cc9efc8ef4fd
+guid: c0bcb65b5de1f7b44a2311956a9c5786
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3392261784204591269
-    second: jack_run_0
+      213: 3708308036554555906
+    second: jack_run_attack2_scarf_0
   - first:
-      213: 6910284739731439518
-    second: jack_run_1
+      213: -5190336085770386169
+    second: jack_run_attack2_scarf_1
   - first:
-      213: 6955960553115050735
-    second: jack_run_2
+      213: -2417279424907909981
+    second: jack_run_attack2_scarf_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -98,12 +98,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: jack_run_0
+      name: jack_run_attack2_scarf_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 16
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -112,40 +112,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5f3a5751e34ce0d0800000000000000
-      internalID: -3392261784204591269
+      spriteID: 2028f84038e867330800000000000000
+      internalID: 3708308036554555906
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jack_run_1
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e9fbe78cb5346ef50800000000000000
-      internalID: 6910284739731439518
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: jack_run_2
+      name: jack_run_attack2_scarf_1
       rect:
         serializedVersion: 2
         x: 32
         y: 0
-        width: 16
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -154,8 +133,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe26d00d449888060800000000000000
-      internalID: 6955960553115050735
+      spriteID: 705c3ce54d838f7b0800000000000000
+      internalID: -5190336085770386169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jack_run_attack2_scarf_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a4e08b9b29147ed0800000000000000
+      internalID: -2417279424907909981
       vertices: []
       indices: 
       edges: []
